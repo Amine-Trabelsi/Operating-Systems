@@ -1,1 +1,0 @@
-find /usr/bin/ -name "*gcc*" | tail -5 | sort -r > ex1.txt
