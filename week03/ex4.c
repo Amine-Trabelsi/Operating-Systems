@@ -94,12 +94,12 @@ int main() {
 	double Danswer = *((double*)aggregate(Darray, sizeof(double), 5, &initial_value_double, double_addition));
 	printf("Answer: %f\n", Danswer);
 
-	// INTEGER multiplication
+	// DOUBLE multiplication
 	initial_value_double = 1;
 	Danswer = *((double*)aggregate(Darray, sizeof(double), 5, &initial_value_double, double_multiplication));
 	printf("Answer: %f\n", Danswer);
 
-	// INTEGER maximum
+	// DOUBLE maximum
 	initial_value_double = DBL_MIN;
 	Danswer = *((double*)aggregate(Darray, sizeof(double), 5, &initial_value_double, double_max));
 	printf("Answer: %f\n", Danswer);
