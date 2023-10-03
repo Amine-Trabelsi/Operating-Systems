@@ -1,0 +1,14 @@
+Prediction:
+N = 3;
+i = 0; after running fork we now have 2 processes.
+i = 1; this command will be run by both processes, and each process will become two. -> 2 * 2 = 4 processes.
+i = 2; again four processes will call a fork function here. Each process will duplicate giving 4 * 2 = 8 processes in total.
+
+N=5;
+first three iterations are the same
+i = 3; now again 8 * 2 = 16;
+i = 4; 16 * 2 = 32;
+we have 32 final processes.
+
+Observation:
+the number of processes is equal to the predicted amount.
