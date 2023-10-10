@@ -1,0 +1,1 @@
+The result of ex4 is significantly slower than ex3. Moreover, increasing the number of threads does not seem to improve the time.
