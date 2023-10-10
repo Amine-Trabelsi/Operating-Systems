@@ -1,0 +1,19 @@
+Using m= 1 ##########################
+Number of primes in [0,10000000) is 664579
+DONE in 6.728940476 seconds
+
+Using m= 2 ##########################
+Number of primes in [0,10000000) is 664579
+DONE in 4.447040184 seconds
+
+Using m= 4 ##########################
+Number of primes in [0,10000000) is 664579
+DONE in 4.071985244 seconds
+
+Using m= 10 ##########################
+Number of primes in [0,10000000) is 664579
+DONE in 3.785861145 seconds
+
+Using m= 100 ##########################
+Number of primes in [0,10000000) is 664579
+DONE in 3.536079220 seconds

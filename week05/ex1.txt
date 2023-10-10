@@ -1,0 +1,6 @@
+All subscribers receive the same message!
+we create n pipes for n subscribers because if the subscriber opens the pipe for reading and the pipe is not open for writing the process will hold costing a lot of time.
+
+The main issue I faced was about hanging process when the fifo file is open only from one size (read-only or write-only). 
+I found out that "cat" command can open a fifo for reading.
+

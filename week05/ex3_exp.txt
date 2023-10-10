@@ -1,0 +1,2 @@
+First observation is that for m=1 we get the slowest time as expected.
+Moreover, the runtime decreases significantly when increasing number of threads.
