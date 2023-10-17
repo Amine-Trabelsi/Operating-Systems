@@ -62,7 +62,6 @@ long big_n() {
 }
 
 int main(int argc, char *argv[]){
-    printf("worker running\n");
     // get the process_idx from argv
     // process idx
     process_idx = atoi(argv[1]);
