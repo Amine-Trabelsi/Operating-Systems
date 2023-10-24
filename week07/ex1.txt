@@ -1,0 +1,9 @@
+Time Taken First Fit: 0.723556
+Throughput First Fit: 74.631404
+Time Taken Best Fit: 1.776084
+Throughput Best Fit: 30.403967
+Time Taken Worst Fit: 1.823750
+Throughput Worst Fit: 29.609321
+
+
+From this result for the big input, we can notice that first fit is faster then the other two approaches for this problem. Moreover, the throughput is significantly bigger. 
