@@ -1,0 +1,3 @@
+when the memory is freed inside the loop si and so values are at 0
+except sometimes the first value.
+Nevertheless, when we increase the memory size and only free the memory at the end of the execution we notice that the values of si and so increase dramatically.
