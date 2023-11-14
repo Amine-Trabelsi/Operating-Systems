@@ -1,0 +1,6 @@
+When modfiying myfile11.txt
+the monitor only detected the modification of that file and not the other hardlinks.
+
+when modifying /tmp/myfile1.txt
+the monitor did not detect the change in myfile13.txt
+because it is just a link
